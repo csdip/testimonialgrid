@@ -26,19 +26,20 @@ body{
     background-color: var(--Light-grayish-blue);
 }
 
-.test-container{
+.test-container {
     width: 1112px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-auto-flow: dense;
-    grid-gap: 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
 }
 
 .single-test {
 	position: relative;
-	padding: 24px 32px 33px;
+	padding: 24px 30px;
 	border-radius: 10px;
 	box-shadow: 15px 25px 25px rgba(0, 0, 0, 0.08);
 }
@@ -64,10 +65,10 @@ body{
     margin-left: 15px;
 }
 
-.user{
-    width: 32px;
-    height: 32px;
-    border-radius: 100px;
+.user {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
 }
 
 .profile-details h4{
@@ -83,11 +84,11 @@ body{
     opacity: .5;
 }
 
-h2{
-    font-size: 20px;
-    font-weight: 600;
-    margin: 22px 0 20px;
-    color: var(--Very-dark-blackish-blue);
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 19px 0;
+	color: var(--Very-dark-blackish-blue);
 }
 
 p{
